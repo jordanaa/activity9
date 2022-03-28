@@ -36,23 +36,21 @@
             ]
          }
       ],
-    "startupTasks": [
-     {
-        "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
-      },
-      
+     "startupTasks": [
       {
-         "testPath":"main/simpleTestCase/test_cases/fail.fftc"
+        "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+      },
+      {
+         "testPath": "main/simpleTestCase/test_cases/fail.fftc"
       }
-      ],     
+      ],
     "teardownTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+        "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
       },
-      
       {
-         "testPath":"main/simpleTestCase/test_cases/fail.fftc"
+         "testPath": "main/simpleTestCase/test_cases/fail.fftc"
       }
-      ]     
+      ]
     }]
 }
