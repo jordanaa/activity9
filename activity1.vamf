@@ -1,0 +1,40 @@
+{
+   "name":"Activity 1 - Repo 1",
+   "shortDescription": "Test Activity on eduard-repo in master branch. Updated after upgrade",
+   "icon":"customActivityManual.svg",
+   "descriptionMarkdown":"Activity1.md",
+   "topology": [
+{
+      "name": "Topology 1",
+      "actionTitle":"Reserve",
+      "description": "Create an immediate reservation on the topology",
+      "reservationDuration":"",
+      "automation": [
+         {
+            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "allowToRunWithOptions": true,
+            "parametersList": [
+               {
+                  "name": "manifestParam1",
+                  "value": "testValue1",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
+         },
+         {
+            "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
+            "allowToRunWithOptions": true,
+            "name": "NewNameManifest",
+            "parametersList": [
+               {
+                  "name": "manifestParam2",
+                  "value": "testValue2",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
+         }
+      ]
+    }]
+}
