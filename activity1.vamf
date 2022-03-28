@@ -20,21 +20,7 @@
                   "type": "TEXT",
                   "description": "Test Description" 
                }
-            ],
-            "requirements": [
-                  {
-                     "name": "agent_name",
-                     "value": "jordan"
-                  },
-                  {
-                     "name": "pool",
-                     "value": "startupteardown"
-                  },
-                  {
-                     "name": "pool",
-                     "value": "triggered"
-                  }
-                ]
+            ]
          },
          {
             "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
