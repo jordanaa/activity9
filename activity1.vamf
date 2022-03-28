@@ -11,7 +11,7 @@
       "reservationDuration":"",
       "automation": [
          {
-            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
             "allowToRunWithOptions": true,
             "parametersList": [
                {
