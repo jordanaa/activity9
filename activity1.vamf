@@ -11,7 +11,7 @@
       "reservationDuration":"",
       "automation": [
          {
-            "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
+            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
             "allowToRunWithOptions": true,
             "parametersList": [
                {
@@ -23,7 +23,7 @@
             ]
          },
          {
-            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
             "allowToRunWithOptions": true,
             "name": "NewNameManifest",
             "parametersList": [
