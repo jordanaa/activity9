@@ -38,7 +38,7 @@
       ],
     "startupTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+        "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
       
       "requirements": [
                   {
@@ -58,7 +58,7 @@
       ],
     "teardownTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+        "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
       
        "requirements": [
                   {
