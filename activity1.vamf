@@ -59,11 +59,7 @@
     "teardownTasks": [
       {
         "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
-      
-    
-        }
-      ]
-      
-      
+       }
+      ]     
     }]
 }
