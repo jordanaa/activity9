@@ -39,7 +39,7 @@
     "startupTasks": [
       {
         "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
-      }
+      
       "requirements": [
                   {
                      "name": "agent_name",
@@ -54,11 +54,12 @@
                      "value": "triggered"
                   }
                 ]
+       }
       ],
     "teardownTasks": [
       {
         "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
-      }
+      
        "requirements": [
                   {
                      "name": "agent_name",
@@ -73,6 +74,7 @@
                      "value": "triggered"
                   }
                 ]
+        }
       ]
       
       
