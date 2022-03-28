@@ -38,11 +38,35 @@
      "startupTasks": [
       {
         "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+        "parametersList": [
+						{
+							"name": "parameter1",
+							"type": "INTEGER",
+							"value": "27"
+						},
+						{
+							"name": "parameter2",
+							"type": "TEXT",
+							"value": "testValue3"
+						}
+					]
       }
       ],
     "teardownTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+        "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+        "parametersList": [
+						{
+							"name": "parameter1",
+							"type": "INTEGER",
+							"value": "27"
+						},
+						{
+							"name": "parameter2",
+							"type": "TEXT",
+							"value": "testValue3"
+						}
+					]
       }
       ]
     }]
