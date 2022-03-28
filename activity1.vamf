@@ -53,10 +53,8 @@
                      "value": "triggered"
                   },
        {"testPath":"main/simpleTestCase/test_cases/fail.fftc"
-       },
-       {"testPath":"main/simpleTestCase/test_cases/pass.fftc"
        }
-                ]
+       ]
        }
       ],
     "teardownTasks": [
@@ -78,8 +76,6 @@
                 ]
        },
        {"testPath":"main/simpleTestCase/test_cases/fail.fftc"
-       },
-       {"testPath":"main/simpleTestCase/test_cases/pass.fftc"
        }
       ]     
     }]
