@@ -45,7 +45,6 @@
       ],
     "teardownTasks": [
       {
-        "name": "nume test",
         "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
       },
       {
