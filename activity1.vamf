@@ -46,9 +46,8 @@
         "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
       }
       ]
-    }]
-    
-    "requirements": [
+      
+      "requirements": [
                   {
                      "name": "agent_name",
                      "value": "jordan"
@@ -61,4 +60,6 @@
                      "name": "pool",
                      "value": "triggered"
                   }
+      
+    }]
 }
