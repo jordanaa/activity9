@@ -23,7 +23,7 @@
             ]
          },
          {
-            "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
+            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
             "allowToRunWithOptions": true,
             "name": "NewNameManifest",
             "parametersList": [
@@ -38,7 +38,7 @@
       ],
     "startupTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+        "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
       
       "requirements": [
                   {
@@ -58,7 +58,7 @@
       ],
     "teardownTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+        "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
         "requirements": [
                   {
                      "name": "agent_name",
