@@ -51,7 +51,11 @@
                   {
                      "name": "pool",
                      "value": "triggered"
-                  }
+                  },
+       {"testPath":"main/simpleTestCase/test_cases/fail.fftc"
+       },
+       {"testPath":"main/simpleTestCase/test_cases/pass.fftc"
+       }
                 ]
        }
       ],
@@ -72,6 +76,10 @@
                      "value": "triggered"
                   }
                 ]
+       },
+       {"testPath":"main/simpleTestCase/test_cases/fail.fftc"
+       },
+       {"testPath":"main/simpleTestCase/test_cases/pass.fftc"
        }
       ]     
     }]
