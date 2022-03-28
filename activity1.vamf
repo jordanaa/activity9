@@ -41,7 +41,7 @@
         "parametersList": [
 						{
 							"name": "parameter1",
-							"type": "Integer",
+							"type": "INTEGER",
 							"value": "27"
 						},
 						{
