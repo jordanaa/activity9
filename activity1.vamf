@@ -40,13 +40,6 @@
       {
         "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
       }
-      ],
-    "teardownTasks": [
-      {
-        "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
-      }
-      ]
-      
       "requirements": [
                   {
                      "name": "agent_name",
@@ -60,6 +53,28 @@
                      "name": "pool",
                      "value": "triggered"
                   }
+                ]
+      ],
+    "teardownTasks": [
+      {
+        "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+      }
+       "requirements": [
+                  {
+                     "name": "agent_name",
+                     "value": "jordan"
+                  },
+                  {
+                     "name": "pool",
+                     "value": "startupteardown"
+                  },
+                  {
+                     "name": "pool",
+                     "value": "triggered"
+                  }
+                ]
+      ]
+      
       
     }]
 }
