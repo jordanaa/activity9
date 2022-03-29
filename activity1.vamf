@@ -55,6 +55,7 @@
     "teardownTasks": [
       {
         "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
+	"parameterFilePath": "main/simpleTestCase/test_cases/parameters.ffpt"
         "parametersList": [
 						{
 							"name": "parameter1",
