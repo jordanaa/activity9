@@ -37,7 +37,7 @@
       ],
      "startupTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
+        "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
         "parametersList": [
 						{
 							"name": "parameter1",
