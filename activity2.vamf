@@ -8,11 +8,11 @@
       "actionTitle":"Reserve",
       "description": "Immediate reservation of two VMs Velocity VM and VDS VM",
       "reservationDuration":"60",
-      "automation": [],
-      {
+      "automation": [
+         {
             "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
             "allowToRunWithOptions": true,
-            "parametersList":[
+            "parametersList": [
                {
                   "name": "manifestParam1",
                   "value": "testValue1",
@@ -35,7 +35,7 @@
             ]
          }
       ],
-     "startupTasks": [
+    "startupTasks": [
       {
         "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
       },
@@ -45,7 +45,7 @@
       ],
     "teardownTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/parameters.fftc"
+        "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
       },
       {
         "testPath": "main/simpleTestCase/test_cases/sleep.fftc"
