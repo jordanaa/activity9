@@ -41,11 +41,35 @@
       },
       {
         "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
+        "parametersList": [
+						{
+							"name": "parameter1",
+							"type": "INTEGER",
+							"value": "27"
+						},
+						{
+							"name": "parameter2",
+							"type": "TEXT",
+							"value": "testValue3"
+						}
+					]
       }
       ],
     "teardownTasks": [
       {
         "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
+        "parametersList": [
+						{
+							"name": "parameter1",
+							"type": "INTEGER",
+							"value": "27"
+						},
+						{
+							"name": "parameter2",
+							"type": "TEXT",
+							"value": "testValue3"
+						}
+					]
       },
       {
         "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
