@@ -10,7 +10,7 @@
       "reservationDuration":"",
       "automation": [
          {
-            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "testPath": "edi-repo/activity-catalog-assets/test_cases/nothing.fftc",
             "allowToRunWithOptions": true,
             "parametersList":[
                {
