@@ -34,9 +34,10 @@
                }
             ]
          }
-      ]
-     "startupTasks": [
-         "testPath": "main/simpleTestCase/test_cases/nothing.fftc"   
+      ],
+    "startupTasks": [
+      "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+     
       ],
     "teardownTasks": [
       {
