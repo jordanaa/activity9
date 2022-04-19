@@ -1,0 +1,120 @@
+tosca_definitions_version: tosca_simple_yaml_1_0
+imports:
+- velocity_types_1_0.yaml
+topology_template:
+  node_templates:
+    topology:
+      type: com.spirent.velocity.Topology
+      properties:
+        name: topologie-velo-8211
+        isSharedAccess: false
+    device_i317b2b0c-b847-42f8-a1eb-a0d3476c755a:
+      type: com.spirent.velocity.Device
+      properties:
+        id: i317b2b0c-b847-42f8-a1eb-a0d3476c755a
+        name: Server_abstract-velo-8211
+        inventory_id: f8998793-74a5-4c94-93a8-e057fafaab44
+        condition: template[SERVER]
+        shared: true
+        skip_validation: false
+        boundary:
+          height: 100
+          width: 100
+          x: 20
+          y: 275
+        icon_uri: ilo://api/0/resource/icon?id=f8998793-74a5-4c94-93a8-e057fafaab44
+        shape: RECTANGLE
+        reservation_time: IMMEDIATE
+        hostResourceTopologyResourceId: i7a692ca2-4297-4646-a4b1-e38a838a9afc
+        hostResourceParentType: PARENT
+    device_i2b5298a3-36f2-4055-bd26-b55601492f7a:
+      type: com.spirent.velocity.Device
+      properties:
+        id: i2b5298a3-36f2-4055-bd26-b55601492f7a
+        name: Lab_abstract-velo-8211
+        inventory_id: f962c1ec-1a03-4ec1-b314-1492a05b947f
+        condition: template[LAB]
+        shared: true
+        skip_validation: false
+        boundary:
+          height: 100
+          width: 100
+          x: 20
+          y: 35
+        icon_uri: ilo://api/0/resource/icon?id=f962c1ec-1a03-4ec1-b314-1492a05b947f
+        shape: RECTANGLE
+        reservation_time: IMMEDIATE
+    device_i7a692ca2-4297-4646-a4b1-e38a838a9afc:
+      type: com.spirent.velocity.Device
+      properties:
+        id: i7a692ca2-4297-4646-a4b1-e38a838a9afc
+        name: Rack_abstract-velo-8211
+        inventory_id: 6e9baab5-3473-40dc-a113-d71f1102dad9
+        condition: template[RACK]
+        shared: true
+        skip_validation: false
+        boundary:
+          height: 100
+          width: 100
+          x: 20
+          y: 155
+        icon_uri: ilo://api/0/resource/icon?id=6e9baab5-3473-40dc-a113-d71f1102dad9
+        shape: RECTANGLE
+        reservation_time: IMMEDIATE
+        hostResourceTopologyResourceId: i2b5298a3-36f2-4055-bd26-b55601492f7a
+        hostResourceParentType: PARENT
+    device_i71aa9879-755e-401b-bfd5-22630c0edbe7:
+      type: com.spirent.velocity.Device
+      properties:
+        id: i71aa9879-755e-401b-bfd5-22630c0edbe7
+        name: LAB
+        inventory_id: 0d22dbe0-6f93-41b2-ae9c-b7b49a1924a0
+        condition: template[LAB]
+        shared: true
+        skip_validation: false
+        boundary:
+          height: 100
+          width: 100
+          x: 294
+          y: 156
+        icon_uri: ilo://api/0/resource/icon?id=0d22dbe0-6f93-41b2-ae9c-b7b49a1924a0
+        shape: RECTANGLE
+        reservation_time: IMMEDIATE
+    device_ic70ab18c-d460-4584-92c4-f70d00563f09:
+      type: com.spirent.velocity.Device
+      properties:
+        id: ic70ab18c-d460-4584-92c4-f70d00563f09
+        name: RACK
+        inventory_id: fbcdec1a-427a-4fb0-a3fc-1d0ab9574ef8
+        condition: template[RACK]
+        shared: true
+        skip_validation: false
+        boundary:
+          height: 100
+          width: 100
+          x: 294
+          y: 280
+        icon_uri: ilo://api/0/resource/icon?id=fbcdec1a-427a-4fb0-a3fc-1d0ab9574ef8
+        shape: RECTANGLE
+        reservation_time: IMMEDIATE
+        hostResourceTopologyResourceId: i71aa9879-755e-401b-bfd5-22630c0edbe7
+        hostResourceParentType: PARENT
+  groups:
+    group_i2aa37ea5-9d06-4f77-accb-7355e6da08ef:
+      type: com.spirent.velocity.groups.Group
+      properties:
+        id: i2aa37ea5-9d06-4f77-accb-7355e6da08ef
+        boundary:
+          height: 395
+          width: 140
+          x: 541
+          y: 105
+        name: Lab_abstract-velo-8211 Group
+        description: Lab_abstract-velo-8211 Group
+        collapsed: false
+        shared: false
+        isOrchestrated: false
+      members:
+      - device_i317b2b0c-b847-42f8-a1eb-a0d3476c755a
+      - device_i2b5298a3-36f2-4055-bd26-b55601492f7a
+      - device_i7a692ca2-4297-4646-a4b1-e38a838a9afc
