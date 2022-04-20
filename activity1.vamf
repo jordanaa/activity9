@@ -10,7 +10,7 @@
       "reservationDuration":"",
       "automation": [
          {
-            "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
+            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
             "allowToRunWithOptions": true,
             "parametersList":[
                {
@@ -22,7 +22,7 @@
             ]
          },
          {
-            "testPath": "main/simpleTestCase/test_cases/sleep_2min.fftc",
+            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
             "allowToRunWithOptions": true,
             "name": "NewNameManifest",
             "parametersList": [
@@ -42,7 +42,7 @@
       ],
     "teardownTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+        "testPath": "main/simpleTestCase/test_cases/fail.fftc"
       }
       ]
     }]
